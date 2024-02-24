@@ -3,6 +3,6 @@
  design and verify  2:1 MUX 
 
   interface 
-inputs a, b [7:0]  - two inputs
+inputs a, b [7:0]  - two inputs/t
 input sel -  mux selector
 output Q [7:0] - output
