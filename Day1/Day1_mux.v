@@ -6,7 +6,6 @@ module Day1_mux (Q, a,b,sel);
 input [7:0] a,b;
 input  sel;
 output [7:0] Q;
-//gjgjhkhjkh
 assign Q = sel ? b : a;
 
 endmodule
